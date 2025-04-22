@@ -9,7 +9,7 @@ RUN rm -rf ./*
 
 # Copy static files into the container
 COPY index.html .
-COPY style.css .
+COPY styles.css .
 
 # Expose port 80
 EXPOSE 80
